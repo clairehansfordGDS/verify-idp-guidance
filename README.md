@@ -69,19 +69,14 @@ If all goes well something like the following output will be displayed:
 
 You should now be able to view a live preview at http://localhost:4567.
 
-## Build
+## Publishing changes
 
-If you want to publish the website without using a build script you may need to
-build the static HTML files.
+Any changes merged into the master branch are automatically published on the live website using [Travis CI][travis].
 
-Type the following to build the HTML:
+When you merge a pull request, Travis CI automatically builds the website by running `bundle exec middleman build` and then deploys this build to PaaS.
 
-```
-bundle exec middleman build
-```
 
-This will create a `build` subfolder in the application folder which contains
-the HTML and asset files ready to be published.
 
 [rvm]: https://www.ruby-lang.org/en/documentation/installation/#managers
 [bundler]: http://bundler.io/
+[travis]: https://github.com/alphagov/verify-idp-guidance/blob/master/.travis.yml
