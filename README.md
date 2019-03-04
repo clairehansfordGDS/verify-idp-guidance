@@ -1,5 +1,7 @@
 # Technical Documentation
 
+[![Build Status](https://travis-ci.com/alphagov/verify-idp-guidance.svg?branch=master)](https://travis-ci.com/alphagov/verify-idp-guidance)
+
 ## Getting started
 
 To preview or build the website, we need to use the terminal.
