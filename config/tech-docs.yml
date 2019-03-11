@@ -12,8 +12,8 @@ phase: TESTING PHASE
 # Links to show on right-hand-side of header
 header_links:
   About: https://www.verify.service.gov.uk
-  Connect: https://verify.service.gov.uk/connect
-  Documentation: https://docs.verify.service.gov.uk
+  Connect: https://www.verify.service.gov.uk/connect
+  Documentation: https://www.docs.verify.service.gov.uk
   Support: https://www.verify.service.gov.uk/support
 
 # Enables search functionality. This indexes pages only and is not recommended for single-page sites.
